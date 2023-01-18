@@ -66,6 +66,9 @@ declare module 'vue-router' {
       filepath: string
       title?: string
       level?: number
+      raw: string
+      content: string
+      frontmatter: Record<string, any>
     }
 
     // private fields
